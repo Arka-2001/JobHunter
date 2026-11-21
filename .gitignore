@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+backend/venv/
+backend/__pycache__/
+backend/*/__pycache__/
+backend/*/*/__pycache__/
+*.pyc
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+*.local
+
+# Build output
+frontend/dist/
+dist/
+build/
+
+# Temporary files
+temp_resumes/
+*.tmp
+.DS_Store
+Thumbs.db
